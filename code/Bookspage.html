@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Books - Books</title>
+    <link rel="stylesheet" href="Bookspage.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/image/logo.png" alt="E-Book Logo" class="logo-image">
+            <span class="logo-text">e-Books</span>
+        </div>
+        <nav>
+            <a href="Homepage.html">Home</a>
+            <a href="books.html" class="active">Books</a>
+            <a href="#">Kid Books</a>
+            <a href="#">Audio</a>
+        </nav>
+        <div class="profile-icon">&#128100;</div>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <div class="category">
+                <h3>Fiction</h3>
+                <ul>
+                    <li><a href="NovelBooks.html" class="active">Novel</a></li>
+                    <li><a href="RomanticBooks.html">Romantics</a></li>
+                    <li><a href="ThrillerBooks.html">Thriller</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Non Fiction</h3>
+                <ul>
+                    <li><a href="#">Self-Help</a></li>
+                    <li><a href="#">Critical Thinking</a></li>
+                    <li><a href="#">Time Management</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="books-section">
+            <h2>Books</h2>
+            <div class="books-gallery">
+                <img src="https://s3-alpha-sig.figma.com/img/a7d6/4090/a10f82ea85b80c05d933aeaec23bf4d1?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=evXtox7IbYzDa8vQHkhJ7r-BmjNQZ0vR6KaVzCWuxRK16iA5VIR27QdOW65OX~TcxrN~kX9Wdp2gtG20bu2YuIWO1yahB-jaYXCGnEnqkwBbu8p~mV2C4xvmQQRWcdAoiG67VLUBLVGtm75kSmf9Z0bYcddmrGwTHZQtM986HsD43trkym2kvSH~2~IiR9gflmOTScCDzaKoCnMu1lO~Wl1bYzW3HVDms8BnB~ilKrx1rY2UtfJ36JHG5OGgkdF0sZ4hEBocVKEpY3g1JLy2Z1LMcl9ywek2HxKjrHqwoM8landqiwgtkvvPNwmwlfyUQF4jdZvaoZyr2JF4wBa3LQ__" alt="Pride and Prejudice">
+                <img src="https://s3-alpha-sig.figma.com/img/557b/af13/0d0b865f12f19d8b7269bd49ffdca4a6?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=m5Uc3Zd1u725sQd-rYOx56xBP5UVMWZY3eYNRbg8D0S86VIWcMT8C94BXvgJrd2Hc2IJeorV-6r4vabAlYiOLvh6r3Egu3PqHvTdPKPGjmDUS04Unk~fs51IjMYeMby2oTVnTx~EGtAAkeJ4SHp8wEtRFuzU6A0-X4nPs1QK3XX97d-PBbKE7t0~Ee4j4n1OECMjuR~uctTG7buuDQeif~B8QqZg3DXIxi~LTTEiMEXyMYM4qQmg4hlLukTlAXD~2KHrigPg2XM1Nk~21ja2h759H3iIXZTioWMIO~jY~FWcj5vfB9KilOs5EkmReCfgQcRluftl-EwyO5D9QBZVXA__" alt="The Adventures of Sherlock Holmes">
+                <img src="https://s3-alpha-sig.figma.com/img/ae98/803d/b8d7b12add7739872b77cb0d1cc4fe4c?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YK78xaT05Wvbg1WUd7RBo9DSjZTP~uF~UniDoRkwhggMCls2OMNQlUom8ZECQcvxtBZueES5gnO2iNdfH6WJ-kxdPja3dZAYbgrpc1HctA2-4tUZBDX-ZjPkcQKd1htj1l6UbjouwnGpB8wW86EsvHr2lIvQag~oJIAlFtLG52uj1Sz7-ctoRmrshF0R0inghvSw3cPKrcDLfbEid1AwBrsEj78MoSofsUwJz3yU4P~woHIgbFDc7G~K7Ej72kumAB70HfZ~ZIIpx0hclvLsU4t~W6fPLm~SCBgiNMAizY-bEUuZhPbFZ157dp5-eGpdr5zKKaSm5M-urnsTs0BK-w__" alt="The War of the Worlds">
+                <img src="https://s3-alpha-sig.figma.com/img/7379/dc9c/af0f6a6e01ba378b0938b9a5433ce30c?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KK60eX464NutlU6c8SBcCPWI5M~gOu6yo5AuXnv-Cbuf-l8HbOJBGAqrUfKOZ1VsvopHMsPaTI8-e5EWTBR9dAVjAHwyZlLKKD2p3S01rl~ShnpRoqac3uqgU7NjId8Wp2ERtoO-e8zDY5QS-vcE2Vp-6mzNDJBzutcpyF8LUvh7mUr-gJtyRs-w83YOE-sFOkLjNMgezKZzhN1xEFl0fSLimBdYa7dfx9xWtF5KVlGFUE2~RXEcWVfLiX3rEnUup4Xtu8GuyaSWVH2ygIsTYoBIq9fpn6agm0m~e1m4GNER6hlQQoM7pQd~MgIHOg3txk6Y-RLM1d6qCHotbpHNkw__" alt="Alice's Adventures in Wonderland">
+            </div>
+            <p class="description">Advanced readers can grasp themes, symbolism, and critical perspectives.</p>
+        </section>
+    </main>
+</body>
+</html>
